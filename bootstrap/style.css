@@ -1,6 +1,6 @@
 
 .img{
-	background-image:url('bg_re.jpg');
+	background-image:url('images/bg_re.jpg');
 	background-repeat: repeat-x;
 	background-size: 176px;
 	
@@ -13,6 +13,9 @@
 /*.second{
 	flex-wrap: wrap;
 }*/
+.nav-top{
+	
+}
 .social{
 	margin-left: 50px;
 	margin-top: 30px;
@@ -54,31 +57,91 @@ hr{
 	font-size: 12px;
 
 }
-footer{
-	background-image: url("foot.png");
-	margin-left: 0px;
-	margin-bottom: 0px;
-	margin-right: 0px;
-	background-size: cover;
+
+.footer_up{
+	background-image: url("images/foot.png");
+	background-repeat: repeat-x;
+	background-position: bottom;
+	height: 65px;
 }
-a{
+.site_foot{
+	color: #7f6942;
+	position: relative;
+}
+.f-link{
 	color: #994d00;
 	font-size: 12px;
 }
 
+.sm-footer{
+	height: 97px;
+}
+.sm-container{
+	padding-right: 0px;
+	padding-left: 0px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.foot-row{
+	margin-right: 20px;
+	margin-left: 20px;
 
-.x{
-	color: #994d00; font-size: 12px;
-	 margin-top: 13px;
-	 margin-bottom: 30px;
+}
+.copyrights{
+	font-size: 11px;
+	color: #7f6942;
+	text-align: right;
+}
+.foot-title{
+	font-size: 12px;
+	color: 
+}
+.foot-end{
+	font-size: 11px;
+	color: 
+}
+.foot-end a{
+	color: #7f6942;
+}
+.foot3{
+	text-align: center;
 }
 
+.content{
+	align-content: center;
+}
+.head-title{
+	color: #804000; 
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	margin-top: 10px;
 
+}
 
+.mapouter{
+	position:relative;
+	text-align:right;
+	height:500px;
+	width:100%;
+}
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:500px;
+	width:100%;
+}
 
-
-
-
+.fig{
+	color: #804000;
+	font-size: 15px;
+}
+.img1{
+	width: 350px;
+	height: 150px;
+	box-shadow: 4px 4px 5px 0px rgba(224,218,215,1);
+}
 
 
 
