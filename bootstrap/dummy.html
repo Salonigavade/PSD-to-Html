@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <style>
+  	body{
+  		margin: 0;
+  		padding: 0;
+  		font-family: sans-sarif;
+  	}
+  	ul{
+  		position: absolute;
+  		top:50%;
+  		left: 50%;
+  		margin: 0;
+  		padding: 0;
+  		display: flex;
+  		transform: translate(-50%, -50%);
+
+  	}
+  	ul li{
+  		list-style: none;
+
+  	}
+  	ul li.active a{
+  		position: relative;;
+  		display: block;
+  		padding: 10px 20px;
+  		text-decoration: none;
+  		text-transform: uppercase;
+  		color: red;
+  		font-weight: bold;
+
+  	}
+  	ul li a{
+  		background: yellow;
+  		color: #fff;
+  	}
+  </style>
+</head>
+<body>
+	<ul>
+		
+		<li class="active"><a href="#">Home</a></li>
+		<li><a href="#">Home2</a></li>
+		<li><a href="#">Home3</a></li>
+		<li><a href="#">Home4</a></li>
+	</ul>
+	<script type="text/javascript">
+		                	
+		                	$(document).on('click', 'ul li', function(){
+		                		$(this).addClass('active').siblings(.removeClass('active'))
+		                	})
+	</script>
+</body>
+</html>
