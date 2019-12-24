@@ -1,31 +1,26 @@
 <?php
-include('header.html');
+$page='contact';
+include('header.php');
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="lightbox.min.css">
+	<title>contact</title>
 </head>
-<script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
+<script type="text/javascript" src="lightbox\lightbox-plus-jquery.min.js"></script>
 <body style="background-color: #f9f4eb; margin-right: 0px;margin-bottom: 0px;">
 
 <div class="container">
 	<div class="content">
-			<div class="row">
-				<div class="col-md-6">
+			<div class="row"> 
+				<div class="col-md-6 col-sm-12 col-xs-12">
              <div class="contact-p">
                <p>Plese write your enquiry below..</p>
              </div>
              <form class="form-horizontal">
                
               <div class="form-group">
-                    <label class="control-label col-sm-2 col-md-2" for="uname">Name:</label>
+                    <label class="control-label col-sm-12 col-xs-12 col-md-2" for="uname">Name:</label>
                     <div class="col-sm-2 col-md-2"></div>
                     <div class="col-sm-8 col-md-8">
                       <input type="email" class="form-control" id="uname"  name="uname" required="true">
@@ -33,7 +28,7 @@ include('header.html');
                   </div>
 
                 <div class="form-group">
-                    <label class="control-label col-sm-2 col-md-2" for="email">Email:</label>
+                    <label class="control-label col-sm-12 col-md-2 col-xs-12" for="email">Email:</label>
                      <div class="col-sm-2 col-md-2"></div>
                     <div class="col-sm-8 col-md-8">
                       <input type="email" class="form-control" id="email"  name="email"  required="true">
@@ -41,7 +36,7 @@ include('header.html');
                   </div>
 
                   <div class="form-group">
-                    <label class="control-label col-sm-2 col-md-2" for="pwd">Phone Number:</label>
+                    <label class="control-label col-sm-12 col-md-2 col-xs-12" for="pwd">Phone Number:</label>
                     <div class="col-sm-2 col-md-2"></div>
                     <div class="col-sm-8 col-md-8">          
                       <input type="number" class="form-control" id="pwd"  name="pwd"  required="true">
@@ -49,7 +44,7 @@ include('header.html');
                   </div>
 
                   <div class="form-group">
-                    <label class="control-label col-sm-2 col-md-2" for="sub">Subject:</label>
+                    <label class="control-label col-sm-12 col-md-2 col-xs-12" for="sub">Subject:</label>
                      <div class="col-sm-2 col-md-2"></div>
                     <div class="col-sm-8 col-md-8">         
                       <input type="text" class="form-control" id="sub"  name="sub"  required="true">
@@ -57,9 +52,9 @@ include('header.html');
                   </div>
 
                   <div class="form-group">
-                    <label class="control-label col-sm-2 col-md-2" for="enquiry">Enquiry:</label>
-                    <div class="col-sm-2 col-md-2"></div>
-                    <div class="col-sm-8 col-md-8">        
+                    <label class="control-label col-sm-12 col-md-2 col-xs-12" for="enquiry">Enquiry:</label>
+                    <div class="col-sm-12 col-md-2"></div>
+                    <div class="col-sm-12 col-md-8">        
                       <textarea type="text" id="enquiry" name="enquiry" cols="48"  required="true"></textarea>
                     </div>
                   </div>
@@ -70,8 +65,8 @@ include('header.html');
                       <label class="col-md-12">How many eyes has a typical person?</label>
                     </div>
                     <div class="row">
-                      <div class="col-sm-4 col-md-4"></div>
-                      <div class="col-sm-8 col-md-8">         
+                      <div class="col-sm-12 col-md-4 col-xs-12"></div>
+                      <div class="col-sm-12 col-md-8 col-xs-12">         
                         <input type="text" class="form-control" id="sub1" cols="55" name="sub1"  required="true">
                       </div>
                     </div>
@@ -84,7 +79,7 @@ include('header.html');
                   </div>   
 					 </form>
 				</div>
-        <div class="col-md-6 div2" style="border-left: 1px solid #7f6942; ">
+        <div class="col-md-6 col-sm-12 col-xs-12 div2" style="border-left: 1px solid #7f6942; ">
           <p>
             <strong> M/S. Jaysing G. Hujare (Jadhav)</strong><br>
             Civil Engineer & Contractor
@@ -111,6 +106,6 @@ include('header.html');
 
 </body>
 <?php
-include('footer.html');
+include('footer.php');
 ?>
 </html>

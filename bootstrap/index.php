@@ -1,24 +1,20 @@
 <?php
-include('header.html');
+$page='home';
+include('header.php');
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="style.css">
+	<title>home</title>
 </head>
 <body style="background-color: #f9f4eb; margin-right: 0px;margin-bottom: 0px;">
   <div >
 
 <div class="row">
-     <div class="col-md-2">
+     <div class="col-md-2 col-sm-12 col-xs-12">
        
      </div>
-     <div class="col-md-8">
+     <div class="col-md-8 col-sm-12 col-xs-12">
                       <div  id="myCarousel" class="mm carousel slide" data-ride="carousel">
                   <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -59,30 +55,40 @@ include('header.html');
 
                   <div class="row">
 
-                  <div class="col-md-4">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
                     <div class="div5">
                       <h3>Director Message</h3>
                       <hr>
-                      <p>Its’ heartening to see some signal of global economic revival. Though too early to say so, but I am optimistic about the revival of economy earlier than estimated. With our persistent efforts I am happy to see the</p>
+                      <p>It's heartening to see some signal of global economic revival. Though too early to say so, but I am optimistic about the revival of economy earlier than estimated. With our persistent efforts I am happy to see the</p>
                     </div>
                   </div> 
-                  <div class="col-md-4 l">
+                  <div class="col-md-4 col-sm-12 col-xs-12 l">
                      <h3>Why us..?</h3>
-                     <hr>>>New Deal<br>>>Service<br>>>Quqality<br>>>Want Help
+                     <hr>
+                     <ul class="link1">
+                       <li><a title="Click here to view new Deals" href="https://jaysinghujare.com/new-deals/">>>New Deal </a></li>
+                       <li><a title="Read what service we provide" href="https://jaysinghujare.com/about-us/service-we-provide/">>>Service </a></li>
+                       <li><a title="Read what quality we serves." href="https://jaysinghujare.com/company-overview/quality-policy/">>>Quality </a></li>
+                       <li><a title="Please don't shy to Contact us" href="https://jaysinghujare.com/contact-us/">>>Want help </a></li>
+                     </ul>
                   </div> 
-                  <div class="col-md-4">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
                      <h3>Testimonial</h3>
                       <hr>
-                      <p >Human beings, by changing the inner attitudes of their minds, can change the outer aspects of their lives… .<br><p style="float: right; color: #804000;">– William James</p></p>
+                      <p>
+                        <blockquote >Human beings, by changing the inner attitudes of their minds, can change the outer aspects of their lives...</blockquote><br>
+                        <p class="quote-by">- William James</p>
+                      </p>
+                      
                   </div>                    
                   </div>     
      </div>
-     <div class="col-md-2"></div>
+     <div class="col-md-2 col-sm-12 col-xs-12"></div>
 </div>
 
 </div>
 </body>
 <?php
-include('footer.html');
+include('footer.php');
 ?>
 </html>
