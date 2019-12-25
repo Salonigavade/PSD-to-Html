@@ -5,26 +5,29 @@
 
   
 </head>
-<body style="position: relative;" class="foot-color">
+<body class="foot-color">
   <div class="footer_up"></div>
   <footer class="site-foot">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-sm-12 col-xs-12" style="text-align: left;">
-                <nav>
-                  <ul class="nav navbar-nav f-link">
-                    <li><a  href="index.php">Home</a></li>
-                    <li><a  href="currProj.php">Current Projects</a></li>
-                    <li><a  href="CompletedProj.php">Completed Projects</a></li>
-                    <li><a  href="contact.php">Contact Us</a></li>
-                    <li><a  href="about.php">About Us</a></li>
-                  </ul>
+            <div class="col-md-7 col-sm-12 col-xs-12">
+                <nav class="main-header">
+                  <div class="footer-menu">
+                      <ul class="nav navbar-nav f-link">
+                        <li><a  href="index.php">Home</a></li>
+                        <li><a  href="newDeals.php">New Deals</a></li>
+                        <li><a  href="currProj.php">Current Projects</a></li>
+                        <li><a  href="CompletedProj.php">Completed Projects</a></li>
+                        <li><a  href="contact.php">Contact Us</a></li>
+                        <li><a  href="about.php">About Us</a></li>
+                      </ul>
+                  </div>
                 </nav>
             </div>
-            <div class="col-md-4 col-sm-12 col-xs-12" style="margin-top: 15px; text-align: right;">
-              <p class="copyrights">Copyright @ 2011- 2019 .
-               <strong> M/S.Jaysing G. Hujare (Jadhav),</strong> Kolhapur.
-              </p>
+            <div class="col-md-5 col-sm-12 col-xs-12">
+              <div class="foot2"><p class="copyrights">Copyright @ 2011- 2019 .
+               <span> M/S.Jaysing G. Hujare (Jadhav),</span> Kolhapur.
+              </p></div>
             </div>
         </div>
         <div class="row" >
