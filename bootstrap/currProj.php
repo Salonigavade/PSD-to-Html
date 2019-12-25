@@ -13,7 +13,7 @@ include('header.php');
 
 <div class="container">
 	<div class="content">
-		<p class="head-title">Current Projects</p><hr>
+		<h3>Current Projects</h3><hr>
 			<div class="row">
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<div class="mapouter">
