@@ -7,6 +7,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <link rel="stylesheet" type="text/css" href="lightbox\lightbox.min.css">
 
@@ -27,7 +29,7 @@
     <div class="row">
     	<div class="col-md-4 col-sm-4 col-xs-4"></div>
     	<div class="col-md-8 col-sm-8 col-xs-8">
-		    	<nav>
+		    	<nav class="main-header">
 		          <div class="navbar-header">
 		           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 		              <span class="icon-bar" style="background-color: white;"></span>
