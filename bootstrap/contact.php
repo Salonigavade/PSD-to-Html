@@ -14,7 +14,7 @@ include('header.php');
 	<div class="content">
 			<div class="row"> 
 				<div class="col-md-6 col-sm-12 col-xs-12">
-             <div class="contact-p">
+             <div class="">
                <p>Plese write your enquiry below..</p>
              </div>
              <form class="form-horizontal">
@@ -54,8 +54,8 @@ include('header.php');
                   <div class="form-group">
                     <label class="control-label col-sm-12 col-md-2 col-xs-12" for="enquiry">Enquiry:</label>
                     <div class="col-sm-12 col-md-2"></div>
-                    <div class="col-sm-12 col-md-8">        
-                      <textarea type="text" id="enquiry" name="enquiry" cols="48"  required="true"></textarea>
+                    <div class="col-sm-12 col-md-8 col-xs-12">        
+                      <textarea type="text" id="enquiry" name="enquiry" cols="50" required="true"></textarea>
                     </div>
                   </div>
 
