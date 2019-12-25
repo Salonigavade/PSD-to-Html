@@ -1,0 +1,86 @@
+html, body, div, span,iframe,a,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, img, q, strong, ul, li, form, label, figcaption, figure, 
+footer, header,nav, {
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+}
+body {
+ line-height:1;
+ background-color: #f9f4eb;
+ font-family: Arial, sans-serif,Helvetica;
+}
+h1,h2,h3,h4,h5,h6,.main-header a{
+	font-family:ZurichBT-BoldExtended, sans-serif;
+}
+a{
+	color: #e6decf;
+}
+p,div,h1,h2,h3,h4,h5,h6, ul li,strong,label,form{
+	color: #80663a;
+}
+p,div{
+	font-size: 12px;
+	line-height: 1.7;
+}
+ul li{
+	list-style: none;
+}
+hr {
+ display:block;
+ height:2px; 
+ border-color:1px solid #80663a;
+ margin:1em 0;
+ padding:0;
+}
+blockquote:before {
+  content: '\201C';
+  position: absolute;
+  font-size: 4em;
+  line-height: 1;
+  top:10px;
+  left: 0;
+}
+
+blockquote:after {
+  content: '\201D';
+  float: right;
+  font-size: 4em;
+  line-height: 1;
+  right: 0;
+  bottom: -0.5em;
+ }
+
+.quote-by {
+  display: block;
+  padding-right: 10px;
+  text-align: right;
+  font-size: 13px;  
+}
+
+blockquote{
+font-size: 12px;
+position: relative;
+margin: -1.5em;
+padding: 1.5em 1em 0.5em 3em ;
+border-left: 0px;
+color: #80663a;
+}
+
+.mapouter{
+	position:relative;
+	text-align:right;
+	height:500px;
+	width:100%;
+}
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:500px;
+	width:100%;
+}
+
