@@ -1,6 +1,6 @@
 <?php
 $page='currproj';
-include('header.php');
+include('header2.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -9,7 +9,7 @@ include('header.php');
   <link rel="stylesheet" type="text/css" href="lightbox\lightbox.min.css">
 </head>
 <script type="text/javascript" src="lightbox\lightbox-plus-jquery.min.js"></script>
-<body style="background-color: #f9f4eb; margin-right: 0px;margin-bottom: 0px;">
+<body>
 
 <div class="container">
 	<div class="content">
@@ -45,6 +45,6 @@ include('header.php');
 
 </body>
 <?php
-include('footer.php');
+include('footer2.php');
 ?>
 </html>

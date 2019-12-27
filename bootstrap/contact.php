@@ -1,6 +1,6 @@
 <?php
 $page='contact';
-include('header.php');
+include('header2.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -8,7 +8,7 @@ include('header.php');
 	<title>contact</title>
 </head>
 <script type="text/javascript" src="lightbox\lightbox-plus-jquery.min.js"></script>
-<body style="background-color: #f9f4eb; margin-right: 0px;margin-bottom: 0px;">
+<body>
 
 <div class="container">
 	<div class="content">
@@ -23,7 +23,7 @@ include('header.php');
                     <label class="control-label col-sm-12 col-xs-12 col-md-2" for="uname">Name:</label>
                     <div class="col-sm-2 col-md-2"></div>
                     <div class="col-sm-8 col-md-8">
-                      <input type="email" class="form-control" id="uname"  name="uname" required="true">
+                      <input type="email" class="form-control ip-size" id="uname"  name="uname" required="true">
                     </div>
                   </div>
 
@@ -31,7 +31,7 @@ include('header.php');
                     <label class="control-label col-sm-12 col-md-2 col-xs-12" for="email">Email:</label>
                      <div class="col-sm-2 col-md-2"></div>
                     <div class="col-sm-8 col-md-8">
-                      <input type="email" class="form-control" id="email"  name="email"  required="true">
+                      <input type="email" class="form-control ip-size" id="email"  name="email"  required="true">
                     </div>
                   </div>
 
@@ -39,7 +39,7 @@ include('header.php');
                     <label class="control-label col-sm-12 col-md-2 col-xs-12" for="pwd">Phone Number:</label>
                     <div class="col-sm-2 col-md-2"></div>
                     <div class="col-sm-8 col-md-8">          
-                      <input type="number" class="form-control" id="pwd"  name="pwd"  required="true">
+                      <input type="number" class="form-control ip-size" id="pwd"  name="pwd"  required="true">
                     </div>
                   </div>
 
@@ -47,7 +47,7 @@ include('header.php');
                     <label class="control-label col-sm-12 col-md-2 col-xs-12" for="sub">Subject:</label>
                      <div class="col-sm-2 col-md-2"></div>
                     <div class="col-sm-8 col-md-8">         
-                      <input type="text" class="form-control" id="sub"  name="sub"  required="true">
+                      <input type="text" class="form-control ip-size" id="sub"  name="sub"  required="true">
                     </div>
                   </div>
 
@@ -59,22 +59,16 @@ include('header.php');
                     </div>
                   </div>
 
-
                   <div class="form-group">
-                    <div class="row">
-                      <label class="col-md-12">How many eyes has a typical person?</label>
-                    </div>
-                    <div class="row">
-                      <div class="col-sm-12 col-md-4 col-xs-12"></div>
-                      <div class="col-sm-12 col-md-8 col-xs-12">         
-                        <input type="text" class="form-control" id="sub1" cols="55" name="sub1"  required="true">
-                      </div>
-                    </div>
+                    <label class="control-label col-sm-6 col-md-6 col-xs-6" for="que">
+                      <span  style="margin: 23px;">How many eyes has a typical person?</span><br>
+                      <input type="text" class="form-control ip-size2" id="que"  name="que"  required="true">
+                    </label>
                   </div>
 
                   <div class="form-group">        
                     <div class="col-sm-offset-4 col-sm-8 col-md-offset-4 col-md-8">
-                      <button type="submit" class="btn btn-default" style="background-color:#7f6942; color: #fff; width: 50%;">Submit</button>
+                      <button type="submit" class="input-size3"></button>
                     </div>
                   </div>   
 					 </form>
@@ -106,6 +100,6 @@ include('header.php');
 
 </body>
 <?php
-include('footer.php');
+include('footer2.php');
 ?>
 </html>

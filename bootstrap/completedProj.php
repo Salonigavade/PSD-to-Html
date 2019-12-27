@@ -1,6 +1,6 @@
 <?php
 $page='compproj';
-include('header.php');
+include('header2.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -9,10 +9,10 @@ include('header.php');
   <link rel="stylesheet" type="text/css" href="lightbox\lightbox.min.css">
 </head>
 <script type="text/javascript" src="lightbox\lightbox-plus-jquery.min.js"></script>
-<body style="background-color: #f9f4eb; margin-right: 0px;margin-bottom: 0px;">
+<body>
 
 <div class="container">
-	<div class="content">
+	<div>
 		<h3>Completed Projects</h3><hr>
 			<div class="row">
 				<div class="col-md-12 col-sm-12 col-xs-12">
@@ -28,8 +28,8 @@ include('header.php');
 			<div class="row">
 				<div class="col-md-4 col-sm-12 col-xs-12">
   					<figure>
-  						<a href="images/Bhoi_Building_full.jpg" data-lightbox="saloni"><img src="images/Bhoi_Building_full.jpg" alt="" style="width: 350px; height: 200px;"  class="img-thumbnail img1"></a>
-              <figcaption style="margin-left: 50px;">
+  						<a href="images/Bhoi_Building_full.jpg" data-lightbox="saloni"><img src="images/Bhoi_Building_full.jpg" alt="" class="img-thumbnail img1"></a>
+              <figcaption>
                 <br><a href="#" class="figcp">Bhoi Samaj Nirman Sahakari Sansthal</a>
               </figcaption>
                 <hr>
@@ -37,8 +37,8 @@ include('header.php');
 				</div>
         <div class="col-md-4 col-sm-12 col-xs-12">
             <figure>
-              <a href="images/nikam_park_full.jpg" data-lightbox="saloni"><img src="images/nikam_park_full.jpg" alt="" style="width: 350px; height: 200px;"  class="img-thumbnail img1"></a>
-              <figcaption style="margin-left: 50px;">
+              <a href="images/nikam_park_full.jpg" data-lightbox="saloni"><img src="images/nikam_park_full.jpg" alt=""  class="img-thumbnail img1"></a>
+              <figcaption>
                 <br><a href="#" class="figcp">Nikam Park</a>
               </figcaption>
                 <hr>
@@ -46,8 +46,8 @@ include('header.php');
         </div>
         <div class="col-md-4 col-sm-12 col-xs-12">
             <figure>
-              <a href="images/saraswati_full.jpg" data-lightbox="saloni"><img src="images/saraswati_full.jpg" alt="" style="width: 350px; height: 200px;"  class="img-thumbnail img1"></a>
-              <figcaption style="margin-left: 50px;">
+              <a href="images/saraswati_full.jpg" data-lightbox="saloni"><img src="images/saraswati_full.jpg" alt=""  class="img-thumbnail img1"></a>
+              <figcaption>
                 <br><a href="#" class="figcp">Shrikrishna Saraswati Bhaval</a>
               </figcaption>
                 <hr>
@@ -58,8 +58,8 @@ include('header.php');
       <div class="row">
             <div class="col-md-4 col-sm-12 col-xs-12">
             <figure>
-              <a href="images/tara_dham_full.jpg" data-lightbox="saloni"><img src="images/tara_dham_full.jpg" alt="" style="width: 350px; height: 200px;"  class="img-thumbnail img1"></a>
-              <figcaption style="margin-left: 50px;">
+              <a href="images/tara_dham_full.jpg" data-lightbox="saloni"><img src="images/tara_dham_full.jpg" alt=""   class="img-thumbnail img1"></a>
+              <figcaption>
                 <br><a href="#" class="figcp">Tara chembers</a>
               </figcaption>
                 <hr>
@@ -67,8 +67,8 @@ include('header.php');
         </div>
         <div class="col-md-4 col-sm-12 col-xs-12">
             <figure>
-              <a href="images/tara_chember_full.jpg" data-lightbox="saloni"><img src="images/tara_chember_full.jpg" alt="" style="width: 350px; height: 200px;"  class="img-thumbnail img1"></a>
-              <figcaption style="margin-left: 50px;">
+              <a href="images/tara_chember_full.jpg" data-lightbox="saloni"><img src="images/tara_chember_full.jpg" alt="" class="img-thumbnail img1"></a>
+              <figcaption>
                 <br><a href="#" class="figcp">Tara Dham</a>
               </figcaption>
                 <hr>
@@ -84,6 +84,6 @@ include('header.php');
 
 </body>
 <?php
-include('footer.php');
+include('footer2.php');
 ?>
 </html>

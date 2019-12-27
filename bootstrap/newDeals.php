@@ -1,6 +1,5 @@
 <?php
-$page='deals';
-include('header.php');
+include('header2.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -64,6 +63,6 @@ include('header.php');
 	</div>
 </body>
 <?php
-include('footer.php');
+include('footer2.php');
 ?>
 </html>

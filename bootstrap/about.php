@@ -1,6 +1,6 @@
 <?php
 $page='about';
-include('header.php');
+include('header2.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -8,7 +8,7 @@ include('header.php');
 	<title>about</title>
 </head>
 <body>
-<div class="container" style="min-height: 450px;">
+<div class="container">
 	<div class="row">
 		<div class="col-md-8 col-sm-12 col-xs-12">
 			<h3>Company Overview</h3><hr>
@@ -43,6 +43,6 @@ include('header.php');
 
 </body>
 <?php
-include('footer.php');
+include('footer2.php');
 ?>
 </html>
