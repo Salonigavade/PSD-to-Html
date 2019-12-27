@@ -38,7 +38,7 @@
 					            </div>
 
 					            <div class="collapse navbar-collapse" id="myNavbar">
-					                <ul class="nav navbar-nav ccc" style="float: right;">
+					                <ul class="nav navbar-nav ccc">
 						                  <li><a class="a1 
 						                  	<?php if(basename($_SERVER['PHP_SELF'])=="index.php"){echo "active";} ?>" href="index.php">Home</a></li>
 						                  <li><a href="newDeals.php" class=" a1 
